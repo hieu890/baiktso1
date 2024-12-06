@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border: 1px solid #000;
+    width: 500px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th {
+    text-align: center;
+    font-size: 24px;
+    padding: 10px 0;
+  }
+  
+  td {
+    padding: 10px;
+    vertical-align: top;
+  }
+  
+  input, select, textarea, button {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    resize: none;
+    height: 60px;
+  }
+  
+  .radio-group, .checkbox-group {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .buttons {
+    text-align: center;
+  }
+  
+  button {
+    width: 100px;
+    padding: 10px;
+    margin: 5px;
+    background-color: #f0f0f0;
+    border: 1px solid #000;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ddd;
+  }
